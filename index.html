@@ -270,18 +270,18 @@
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
-                            <div class="splider__img">
-                                <img class="img-fluid w-100" src="./assets/images/slider1.png" alt="carousol">
+                            <div class="splider__img h-100">
+                                <img class="img-fluid h-100" src="./assets/images/slider1.png" alt="carousol">
                             </div>
                         </li>
                         <li class="splide__slide is-active">
-                            <div class="splider__img">
-                                <img class="img-fluid w-100" src="./assets/images/slider2.png" alt="carousol">
+                            <div class="splider__img h-100">
+                                <img class="img-fluid h-100" src="./assets/images/slider2.png" alt="carousol">
                             </div>
                         </li>
                         <li class="splide__slide">
-                            <div class="splider__img">
-                                <img class="img-fluid w-100" src="./assets/images/slider3.png" alt="carousol">
+                            <div class="splider__img h-100">
+                                <img class="img-fluid h-100" src="./assets/images/slider3.png" alt="carousol">
                             </div>
                         </li>
                     </ul>
@@ -325,29 +325,135 @@
     </section>
     <!-- experience section end -->
     <!-- tetimonial section start -->
-    <section class="tetimonial_section d-flex">
-        <div class="tetimonial_item">
-            <img class="img-fluid w-100" src="./assets/images//client.jpg" alt="ai images">
-        </div>
-        <div class="tetimonial_item">
+    <section class="tetimonial_section d-flex align-items-center justify-content-center position-relative">
+        <div class="d-inline-flex flex-column">
             <div class="tetimonial_content">
                 <h2 class="mb-4 text-white fw-bold text-uppercase text-center before">WHAT <span>our</span> CLIENTS SAY?
                 </h2>
                 <p class="text-white text-uppercase text-center fw-normal">TESTIMONIALS</p>
-                <div class="client">
+                <div class="client_info">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolores quam, minima architecto ut
                         asperiores rerum. Veniam vitae sunt tenetur voluptas reprehenderit delectus temporibus
                         praesentium. Nisi mollitia accusantium in reiciendis!
                     </p>
+                    <div class="client_details d-flex align-items-center justify-content-between">
+                        <div class="client_img d-inline-flex gap-3 align-items-center">
+                            <img src="./assets/images/customar.png" alt="customar images">
+                            <div class="cutomar">
+                                <p class="fw-bold m-0">Carol Chaves</p>
+                                <a href="mailto:@caroles.gmail.com">@caroles.gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="cooma">
+                            <img src="./assets/images/Coomas.png" alt="cooma">
+                        </div>
+                    </div>
+                </div>
+                <div class="client_btn text-center">
+                    <a class="btn btn-primary" href="#">VIEW ALL TESTIMONIALS </a>
                 </div>
             </div>
         </div>
-        <div class="tetimonial_item">
-            <img class="img-fluid w-100" src="./assets/images/client2jpg.jpg" alt="ai images">
-        </div>
     </section>
     <!-- tetimonial section end -->
+    <!-- get touch section start -->
+    <section class="get_touch position-relative">
+        <div class="container px-lg-0">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="touch_content">
+                        <h3 class="text-uppercase fw-bold text-white before">Get in <span>TOUCH</span></h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quasi nesciunt ipsam nobis
+                            omnis tempora iste distinctio et delectus laboriosam asperiores magnam, alias aliquam
+                            voluptatem dolorem molestias fuga maxime natus?
+                        </p>
+                        <div class="address mt-2 d-flex align-items-center">
+                            <div class="address_img me-1">
+                                <img class="img-fluid w-100" src="./assets/images/location.png" alt="location">
+                            </div>
+                            <div class="ms-4">
+                                <p class="fw-bold m-0 text-capitalize">office Address</p>
+                                <a href="#">98, Arca St, PR City, 33414 , Indonesia</a>
+                            </div>
+                        </div>
+                        <div class="address d-flex align-items-center">
+                            <div class="address_img me-1">
+                                <img class="img-fluid w-100" src="./assets/images/phonepng.png" alt="location">
+                            </div>
+                            <div class="ms-4">
+                                <p class="fw-bold m-0 text-capitalize">Call Us</p>
+                                <a href="callto:(+BK)1234567891">(+BK) 123 456 7891</a>
+                            </div>
+                        </div>
+                        <div class="address mb-0 d-flex align-items-center">
+                            <div class="address_img me-1">
+                                <img class="img-fluid w-100" src="./assets/images/gmail.png" alt="location">
+                            </div>
+                            <div class="ms-4">
+                                <p class="fw-bold m-0 text-capitalize">Mail Us</p>
+                                <a href="mailto:info@creaticagency.com">info@creaticagency.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="get_touch_form h-100">
+                        <div class="mb-3">
+                            <label for="name" class="form-label text-uppercase mb-1">YOUR NAME</label>
+                            <input type="text" class="form-control mb-4" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-uppercase mb-1">YOUR EMAIL</label>
+                            <input type="email" class="form-control mb-4" id="email">
+                        </div>
+                        <div class="mb-4">
+                            <label for="exampleFormControlTextarea1" class="form-label text-uppercase mb-1">YOUR
+                                MESSAGE</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form_btn text-center">
+                            <a class="btn btn-primary" href="#">SEND MESSAGE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- get touch section end -->
+    <!-- footer section start -->
+    <section class="footer">
+        <div class="container px-lg-0">
+            <div class="col-lg-6 mx-auto">
+                <div class="footer_content text-center mb-1">
+                    <h3 class="text-uppercase mb-1"><span>Creatic</span></h3>
+                    <p class="text-uppercase before">CREATIVE AGENCY</p>
+                </div>
+                <div class="footer_nav mt-3">
+                    <ul class="list-unstyled d-flex align-items-center justify-content-between ">
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab iure nisi possimus officiis, accusamus
+                    consequuntur et eligendi cupiditate itaque harum rerum maxime ullam minus corrupti autem officia
+                    nihil explicabo minima!
+                </p>
+                <div class="social_icon">
+                    <ul class="list-unstyled d-inline-flex gap-4 align-items-center justify-content-between">
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section end -->
 
 
 
