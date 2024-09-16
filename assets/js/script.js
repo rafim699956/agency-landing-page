@@ -5,8 +5,8 @@ var splide = new Splide('.splide', {
     gap: '1.875rem',
     focus: 'center',
     padding: '0',
-    speed: 100,
+    speed: 500,
     type: 'loop',
-});
+   });
 
 splide.mount();
